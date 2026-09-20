@@ -22,30 +22,35 @@ The main objectives of this project were to:
 
 ## Repository Contents
 
-This repository contains two main Jupyter notebooks used during the dissertation project.
+This repository contains two Jupyter notebooks developed as part of the dissertation.
 
-### Notebook 1
+### 1. Baseline TF-IDF + Logistic Regression
 
-Contains the main data analysis and machine learning experiments, including:
+📓 [View Notebook](./cybattt-baseline-tfidf-lr-fyp.ipynb)
 
-* Data preprocessing
-* Exploratory data analysis
-* Feature preparation
-* Model training
-* Model comparison
-* Performance evaluation
-* Error analysis
+This notebook contains the baseline machine learning pipeline, including:
 
-### Notebook 2
+- Data preprocessing
+- Exploratory data analysis
+- TF-IDF feature extraction
+- Logistic Regression classification
+- Model training and evaluation
+- Performance metrics
+- Error analysis
 
-Contains the deep learning and explainability experiments, including:
+### 2. BERT + SHAP Explainable AI
 
-* BERT-based text classification
-* SHAP explainability analysis
-* Global feature importance
-* Local prediction explanations
-* Explainability evaluation
-* Faithfulness experiments
+📓 [View Notebook](./cybattt-bert-shap-fyp.ipynb)
+
+This notebook contains the transformer-based classification and explainability experiments, including:
+
+- BERT-based text classification
+- Model performance evaluation
+- SHAP explainability analysis
+- Global SHAP analysis
+- Local prediction explanations
+- Feature importance analysis
+- Faithfulness experiments
 
 ## Technologies Used
 
